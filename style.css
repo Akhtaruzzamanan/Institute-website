@@ -1,0 +1,731 @@
+body{
+    margin: 0;
+    background-color: #17A2B8;
+}
+
+#header_section {
+    background-color: rgb(5, 71, 82);
+}
+
+
+
+
+
+
+
+
+
+
+/* Header top Start */
+.header_top .media a img{
+    height: 100px;
+    width: 150px;
+    margin: auto;
+} 
+
+.header_top .media-body a {
+    text-decoration: none;
+    color: #ccc9c9;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header_top .media-body a:hover {
+    color: #ffffff;
+}
+
+.header_top .media .media-body{
+    text-align: left;
+}
+
+/* header top End */
+
+
+
+
+
+
+
+
+
+
+/* Navbar start */
+#navbarNav > ul > li > a {
+    color: #ffffff;
+}
+
+.nav-link {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 0, 2px, 0, 2px;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+    background-color: rgb(5, 71, 82);
+    color: #ffffff;
+    max-width: 200px;
+}
+.dropdown ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+.dropdown ul li:hover>a{
+    color: rgb(5, 71, 82);
+}
+.navbar i {
+    font-size: larger;
+}
+/* Navbar Ends */
+
+
+
+
+
+
+
+
+
+
+/* Notice style css Start*/
+
+.extreme{
+    height:30px;
+    overflow:hidden;
+}
+  
+
+
+#notice_stable{
+    font-size:14px;
+    line-height:30px;
+    text-decoration:none;
+    color:#ffffff;
+    font-weight:normal;
+    background:rgb(5, 71, 82);
+    overflow: hidden;
+}
+  
+
+
+.intercourse{
+    position:relative;
+    overflow:hidden;
+    height:25px;
+    margin:5px 0px;
+}
+  
+
+
+.intercourse span{
+    font-family:40px arial, sans-serif; 
+    padding-left:10px;
+    white-space: nowrap;
+    display:inline-block;
+    position: relative;
+    left:0%;
+    -moz-animation: intercourse 60s infinite linear 1s;   /* Scrolling Timer : Speed 10s */
+    -webkit-animation: intercourse 60s infinite linear 1s;
+    -o-animation: intercourse 60s infinite linear 1s;
+    animation: intercourse 60s infinite linear 1s;
+}
+
+
+
+.intercourse a i{
+    font-size:10pt;
+    line-height: 20px;
+    color: #ffffff;
+}
+
+
+
+.intercourse a{
+    font-size:14px;
+    margin:0px 5px 0px 0px;
+    padding-left:12px;
+    line-height:20px;
+    text-decoration:none;
+    color:#ffffff;
+    font-weight:normal;
+}
+.intercourse a:hover{
+    color:#BDC3C7;
+}
+
+
+
+.intercourse:hover span{
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    -o-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+
+
+.intercourse span:after {
+    content:attr(rel); 
+    display:inline; 
+    color:black; 
+    padding-left:10px;
+}
+
+
+
+.noticeBg{
+    background: rgb(18, 127, 144);
+}
+    
+    @-webkit-keyframes intercourse{
+        0% {left: 0%;}
+        100% {left: -50%;}
+    }
+    @-moz-keyframes intercourse{
+        0% {left: 0%;}
+        100% {left: -50%;}
+    }
+    @-o-keyframes intercourse{
+        0% {left: 0%;}
+        100% {left: -50%;}
+    }
+    @keyframes intercourse{
+        0% {left: 0%;}
+        100% {left: -50%;}
+    }
+/* Notice style css Ends*/
+
+/* Slider section Start */
+#slider_section {
+    background-color: #bdc3c7;
+}
+
+
+
+.carousel-item{
+    height: 400px;
+}
+
+
+
+.carousel-img-1{
+    background-image: url('image/slide1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-2{
+    background-image: url('image/slide2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-3{
+    background-image: url('image/slide3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-4{
+    background-image: url('image/slide4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-5{
+    background-image: url('image/slide5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-6{
+    background-image: url('image/slide6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-img-7{
+    background-image: url('image/slide7.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.carousel-inner h5 {
+    font-size: 2.5rem;
+}
+.carousel-inner p {
+    font-size: 1.10rem;
+}
+
+
+
+    /* Principal div start */
+    .principal {
+        overflow: hidden;
+        border-radius: 50%;
+        height: 235px;
+        background-color: rgb(5, 71, 82);
+        transition: all 0.5s ease-in-out;
+        margin-top: 90px;
+    }
+
+    .principal:hover {
+        height: 400px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+    .principal .wrapper img {
+        position: relative;
+        z-index: 20;
+        border-radius: 50%;
+        display: block;
+        height: 200px;
+        width: 200px;
+        border: 5px solid #ffffff;
+        object-fit: cover;
+    }
+
+    .content {
+        font-size: 15px;
+        padding: 1px 20px 10px 20px !important;
+    }
+    /* Principal div End */
+
+/* Slider section End */
+
+
+
+
+
+
+
+
+
+/* About Section start */
+#about_section {
+    background-image: url(./image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+/* About Section End */
+
+/* teacher Section Start*/
+#teacher_section {
+    background-color: #bdc3c7;
+}
+#teacher_section .col-md-8 {
+    overflow: hidden;
+    background-color: #dff9fb;
+    border-radius: 5px;
+}
+
+#teacher_section .col-md-12 .largeHead{
+    color: rgb(5, 71, 82);
+}
+
+#teacher_section .col-md-12 .subTi {
+    font-size: 20px;
+    color: #130f40;
+}
+
+#teacher_section .col-md-8 .fas {
+    font-size: 12dpx;
+    margin-right: 5px;
+}
+
+
+#teacher_section .col-md-8 .bg-info {
+    background-color: rgb(5, 71, 82)!important;
+    padding: 3px 0;
+    margin-bottom: 5px;
+    border-radius: 3px;
+}
+
+
+#teacher_section .col-md-8 .image img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+#teacher_section .col-md-8 .des .btn {
+    padding: .2rem;
+} 
+
+#teacher_section .col-md-8 .card a {
+    font-size: 12px;
+}
+
+#teacher_section .col-md-8 .card:hover {
+    background-color: rgb(5, 71, 82);
+    color: #ffffff;
+    transform: all 5s ease;
+}
+
+#teacher_section .principal {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 235px;
+    background-color: rgb(5, 71, 82);
+    transition: all 0.5s ease-in-out;
+    margin-top: 130px;
+}
+
+#teacher_section .principal:hover {
+    height: 503px;
+    border-radius: 5px;
+    margin: 0;
+}
+
+/* teacher Section End */
+
+
+
+/* statistic section start */
+#statistic_section {
+    background-image: url(./image/bg3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#statistic_section .carne {
+    height: 130px; 
+    width: 135px;
+    border: 3px solid #bdc3c7;
+    border-radius: 50%;
+}
+
+
+#statistic_section .carne:hover {
+    
+    border: 2px solid #ffffff;
+    background-color: #636e72;
+    transition: all 0.5s ease;
+    cursor: no-drop;
+}
+/* statistic section ends */
+
+/* Corner Section Start */
+#corner_section {
+    background-color: #BDC3C7;
+}
+
+#corner_section .image img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+}
+
+
+#corner_section .card {
+    width: 300px;
+    height: 300px;
+}
+
+#corner_section .swiper-slide {
+    width: 300px;
+    height: 300px;
+}
+#corner_section .card:hover {
+    background-color: rgb(5, 71, 82);
+    color: #ffffff;
+    transform: all 5s ease;
+} 
+/* Corner Section Ends */
+
+
+
+
+
+
+
+
+
+/* Footer Section Start */
+#footer_section {
+    background-color: #3E2723;
+}
+/* Footer Section End */
+
+
+
+
+
+/* Footer Section icon Start */
+.footer_top .three_d {
+    display: grid;
+    height: 100%;
+    place-items: center;
+}
+
+
+.footer_top {
+    border-bottom: 2px solid#bdc3c7;
+}
+
+
+
+.icons a {
+    margin: 0 10px;
+}
+
+.icons a .layer {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s;
+}
+
+
+
+.icons a:hover .layer {
+    transform: rotate(-35deg) skew(20deg);
+}
+
+
+
+.icons a .layer span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+
+
+.icons a .layer span.fab {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+
+.icons a:hover .layer span:nth-child(1){
+    opacity: 0.2;
+}
+.icons a:hover .layer span:nth-child(2){
+    opacity: 0.4;
+    transform: translate(5px, -5px);
+}
+.icons a:hover .layer span:nth-child(3){
+    opacity: 0.6;
+    transform: translate(10px, -10px);
+}
+.icons a:hover .layer span:nth-child(4){
+    opacity: 0.8;
+    transform: translate(15px, -15px);
+}
+.icons a:hover .layer span:nth-child(5){
+    opacity: 1;
+    transform: translate(20px, -20px);
+}
+
+
+
+.icons a:nth-child(1) .layer span,
+.icons a:nth-child(1) .text {
+    color: #4267B2;
+    border-color: #4267B2;
+}
+.icons a:nth-child(2) .layer span,
+.icons a:nth-child(2) .text {
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.icons a:nth-child(3) .layer span,
+.icons a:nth-child(3) .text {
+    color: #E130c6;
+    border-color: #E130c6;
+}
+.icons a:nth-child(4) .layer span,
+.icons a:nth-child(4) .text {
+    color: #2867b2;
+    border-color: #2867b2;
+}
+.icons a:nth-child(5) .layer span,
+.icons a:nth-child(5) .text {
+    color: #FE0000;
+    border-color: #FE0000;
+}
+
+
+
+.icons a:hover:nth-child(1) .layer span {
+    box-shadow: -1px 1px 3px #4267B2;
+}
+.icons a:hover:nth-child(2) .layer span {
+    box-shadow: -1px 1px 3px #1DA1F2;
+}
+.icons a:hover:nth-child(3) .layer span {
+    box-shadow: -1px 1px 3px #E130c6;
+}
+.icons a:hover:nth-child(4) .layer span {
+    box-shadow: -1px 1px 3px #2867b2;
+}
+.icons a:hover:nth-child(5) .layer span {
+    box-shadow: -1px 1px 3px #FE0000;
+}
+
+
+
+.icons a .text {
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: bottom 0.3s ease, opacity 0.3s ease;
+}
+
+.icons a:hover .text {
+    bottom: -35px;
+    opacity: 1;
+}
+/* Footer Section icon End */
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px){
+    .carousel-inner h5 {
+        font-size: 2.5rem;
+        margin-top: 50px;
+    }
+    .carousel-inner a {
+        font-size: 1rem;
+    }
+    .principal .card{
+        background: rgb(5, 71, 82);
+        color: #ffffff;
+    }
+    .content {
+        font-size: 12px;
+        padding: 1px 20px 10px 20px !important;
+    }
+    .wrapper h4,
+    .wrapper h5 {
+        font-size: 16px;
+    }
+    .content a {
+        font-size: 12px;
+    }
+
+    #teacher_section .principal:hover {
+        height: 550px;
+        border-radius: 5px;
+        margin: 0;
+    }
+
+    .footer_top h3 {
+        font-size: 1.50rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px){
+    .header_top .media .media-body{
+        text-align: center;
+        font-size: 1.10rem;
+    }
+
+    .carousel-inner h5 {
+        font-size: 2rem;
+        margin-top: 50px;
+    }
+    .carousel-inner a {
+        font-size: .75rem;
+    }
+
+    .principal {
+        margin: auto;
+    }
+
+    .content {
+        font-size: 15px;
+        padding: 1px 20px 10px 20px !important;
+    }
+    .wrapper h4,
+    .wrapper h5 {
+        font-size: 25px;
+    }
+    .content a {
+        font-size: 15px;
+    }
+
+    .footer_top h3 {
+        font-size: 1.2rem;
+    }
+
+    .icons a .layer {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.3s;
+    }
+
+    .icons a .layer span.fab {
+        font-size: 15px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .icons a {
+        margin: 0 10px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 575px) {
+    #slider_section .col-md-4{
+        margin-top: 2rem;
+    }
+
+    .footer_top h3 {
+        display: none;
+    }
+
+    .footer_top .col-md-4 {
+        margin-top: 1.50rem;
+    }
+
+    #teacher_section .col-md-8 {
+        margin-top: 1.5rem;
+    }
+
+    #teacher_section .col-md-8 .card {
+        margin-top: 1rem;
+    }
+
+    #statistic_section .col-md-3 {
+        margin-top: 2rem;
+    }
+
+}
+
